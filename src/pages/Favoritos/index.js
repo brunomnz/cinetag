@@ -2,7 +2,6 @@ import Banner from 'components/Banner';
 import styles from './Favoritos.module.css';
 import Titulo from 'components/Titulo';
 import Card from 'components/Card';
-import { use } from 'react';
 import { useFavoritoContext } from 'contextos/Favoritos';
 
 function Favoritos() {

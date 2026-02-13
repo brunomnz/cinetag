@@ -1,10 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from './pages/Inicio';
 import Favoritos from "pages/Favoritos";
-import Cabecalho from "components/Cabecalho";
-import Rodape from "components/Rodape";
-import Container from "components/Container";
-import FavoritosProvider from "contextos/Favoritos";
 import Player from "pages/Player";
 import NaoEncontrada from "pages/NaoEncontrada";
 import PaginaBase from "pages/PaginaBase";

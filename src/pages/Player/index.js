@@ -15,7 +15,7 @@ function Player() {
             .then((dados) => {
                 setVideo(...dados);
             });
-    }, []);
+    }, [parametros.id]);
 
     console.log(video);
 
